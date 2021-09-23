@@ -48,7 +48,7 @@ header div {
     margin: 10px;
 }
 
-a {
+li a {
     text-decoration: none;
     font-size: 15px;
     color: black;
@@ -64,7 +64,7 @@ a {
 
 .up {
     float: right;
-    margin: 10px 25px;
+    margin: 15px 25px;
 }
 
 .menu_right {
@@ -102,7 +102,7 @@ a {
     padding: 15px 0;
 }
 
-.fas {
+#head i {
     font-size: 45px;
     margin: 15px 0;
 }
@@ -111,9 +111,84 @@ a {
 .container {
     width: 70%;
     margin: 0 auto;
-    /* debug */
-    height: 800px;
-    background-color: red;
+}
+
+ /* main, section1 */
+#title_main {
+    padding: 20px 0;
+    font-size: 50px;
+}
+
+.input {
+    margin: 10px 3px 10px 10px;
+}
+
+.input_text {
+    font-size: 20px;
+}
+
+/* main, section2 */
+.plan {
+    width: 30%;
+    display: inline-block;
+    margin: 25px 10px;
+    border: 1px solid black;
+}
+
+.plan_type {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid black;
+    font-size: 17px;
+    padding: 10px 0;
+}
+
+.plan_title {
+    font-size: 30px;
+    padding: 10px;
+}
+
+.plan_pay {
+    font-size: 15px;
+    padding: 10px; 
+}
+
+.info {
+    color: rgb(161, 161, 161);
+    margin: 10px 0 30px 10px;
+}
+
+.pln {
+    margin: 10px;
+}
+
+.plan_dcs {
+   font-size: 15px;
+   padding: 10px 0 0 0; 
+}
+
+.cong {
+    margin: 5px 5px 10px 10px;
+}
+
+.divider {
+    margin: 30px 0 30px 10px;
+    width: 50px;
+}
+
+.plan_list_title {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.plan_list {
+    padding: 10px 0 200px 30px;
+    /* list-style-type: ; */
+}
+
+.plan_item {
+    padding: 15px 0 0 0;
+    font-size: 13px;
 }
 
 /* footer */
