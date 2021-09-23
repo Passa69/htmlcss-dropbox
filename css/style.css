@@ -71,7 +71,7 @@ a {
 #head {
     height: 95vh;
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto 65px;
 }
 
 #title {
@@ -103,6 +103,12 @@ a {
 }
 
 /* main */
-
+.container {
+    width: 70%;
+    margin: 0 auto;
+    /* debug */
+    height: 800px;
+    background-color: red;
+}
 
 /* footer */
