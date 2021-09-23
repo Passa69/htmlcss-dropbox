@@ -37,9 +37,9 @@ header div {
 }
 
 #list_up2 {
-    float: right;
+    float: left;
     padding: 10px;
-    margin: 10px 10px;
+    margin: 5px 10px;
 }
 
 .list {
@@ -64,7 +64,12 @@ a {
 
 .up {
     float: right;
-    margin: 25px;
+    margin: 10px 25px;
+}
+
+.menu_right {
+    float: right;
+    background-color: white;
 }
 
 /* header, section */
