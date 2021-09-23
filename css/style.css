@@ -7,7 +7,62 @@
 }
 
 /* header */
+#nav_fixed {
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: sticky;
+}
 
+#nav_fixed::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#logo {
+    display: inline-block;
+    float: left;
+    margin: 25px;
+}
+
+#list_up1 {
+    float: left;
+    padding: 10px;
+    margin: 10px 10px;
+}
+
+#list_up2 {
+    float: right;
+    padding: 10px;
+    margin: 10px 10px;
+}
+
+.button {
+    background-color: rgb(146, 146, 240);
+    font-size: 15px;
+    padding: 3px 10px;
+    border: currentColor;
+    color: white;
+}
+
+.up {
+    float: right;
+    margin: 25px;
+}
+
+.list {
+    display: inline-block;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.list a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
 
 /* main */
 
