@@ -109,7 +109,7 @@ li a {
 
 /* main */
 .container {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -129,12 +129,11 @@ li a {
 
 /* main, section2 */
 .plan {
-    width: 30%;
+    width: calc(100% / 3.5);
     display: inline-block;
     float: left;
-    margin: 25px 10px;
+    margin: 25px 5px;
     border: 1px solid black;
-    min-height: 500px;
 }
 
 .plan_type {
@@ -161,7 +160,8 @@ li a {
 }
 
 .pln {
-    margin: 10px;
+    margin: 10px 10px 10px 30px;
+    font-size: 15px;
 }
 
 .plan_dcs {
@@ -184,17 +184,28 @@ li a {
 }
 
 .plan_list {
-    padding: 10px 0 200px 30px;
+    padding: 10px 0 100px 20px;
     /* list-style-type: ; */
 }
 
 .one {
-    padding: 10px 0 232px 30px;
+    padding: 10px 0 130px 20px;
 }
 
 .plan_item {
     padding: 15px 0 0 0;
     font-size: 13px;
+}
+
+/* main, section3 */
+#plandown {
+    border: 1px solid black;
+}
+
+#plandown_type {
+    border-bottom: 1px solid black;
+    margin-top: 25px;
+    text-align: center;
 }
 
 /* footer */
