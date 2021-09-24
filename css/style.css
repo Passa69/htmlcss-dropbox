@@ -354,5 +354,111 @@ section a {
 }
 
 /* main, section7 */
+#number_7::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#number_7 {
+    margin-top: 30px;
+}
+
+#left {
+    float: left;
+    width: 25%;
+}
+
+#center {
+    float: left;
+    width: 50%;
+    padding: 25px 65px;
+    background-color: lightgrey;
+}
+
+#right {
+    float: left;
+    width: 25%;
+}
+
+.square {
+    float: left;
+    width: 50%;
+}
+
+.square img {
+    height: 150px;
+    width: 150px;
+}
+
+/* left */
+.des {
+    background-color: rgb(83, 214, 83);
+    border: -5px solid lightgreen;
+}
+
+.asu {
+    background-color: rgb(146, 1, 1);
+}
+
+.uf {
+    background-color: rgb(121, 176, 194);
+}
+
+.topp {
+    background-color: red;
+}
+
+/* right */
+.wbr {
+    background-color: red;
+}
+
+.hearst {
+    background-color: lightskyblue;
+}
+
+.lonpl {
+    background-color: rgb(50, 50, 255);
+}
+
+.cco {
+    background-color: yellow;
+}
+
+/* center */
+#center p {
+    margin: 25px 0;
+    font-size: 15px;
+}
+
+#center img {
+    width: 150px;
+    height: 100px;
+}
+
+#desdiv {
+    margin: 25px 5px;
+    width: 45px;
+}
+
+/* main, section8 */
+#number_8 {
+    background-color: rgb(153, 207, 224);
+    height: 300px;
+}
+
+.agency {
+    width: 70%;
+    margin: 0 auto;
+    color: rgb(143, 49, 49);
+    font-size: 25px;
+    float: left;
+}
+
+.agencyb {
+    background-color: white;
+    color: black;
+}
 
 /* footer */
