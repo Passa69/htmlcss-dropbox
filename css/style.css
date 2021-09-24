@@ -13,9 +13,10 @@ header div {
 
 /* header, nav */
 #nav_fixed {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     height: 80px;
     width: 100%;
+    border-bottom: 1px solid black;
     position: fixed;
 }
 
@@ -111,7 +112,12 @@ li a {
 .container {
     width: 80%;
     margin: 0 auto;
-    position: relative;
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
  /* main, section1 */
@@ -200,9 +206,6 @@ li a {
 
 /* main, section3 */
 #plandown {
-    position: absolute;
-    left: 0;
-    top: 970px;
     border: 1px solid black;
     width: 100%;
     text-align: center;
@@ -210,12 +213,14 @@ li a {
 
 #plandown_type {
     border-bottom: 1px solid black;
-    margin-top: 25px;
+    padding: 10px;
+    font-size: 15px;
 }
 
 #plandown_title {
     text-align: left;
     font-size: 25px;
+    padding: 20px 10px;
 }
 
 /* footer */
