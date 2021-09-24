@@ -111,6 +111,7 @@ li a {
 .container {
     width: 80%;
     margin: 0 auto;
+    position: relative;
 }
 
  /* main, section1 */
@@ -132,7 +133,7 @@ li a {
     width: calc(100% / 3.5);
     display: inline-block;
     float: left;
-    margin: 25px 5px;
+    margin: 25px 28px;
     border: 1px solid black;
 }
 
@@ -199,13 +200,22 @@ li a {
 
 /* main, section3 */
 #plandown {
+    position: absolute;
+    left: 0;
+    top: 970px;
     border: 1px solid black;
+    width: 100%;
+    text-align: center;
 }
 
 #plandown_type {
     border-bottom: 1px solid black;
     margin-top: 25px;
-    text-align: center;
+}
+
+#plandown_title {
+    text-align: left;
+    font-size: 25px;
 }
 
 /* footer */
