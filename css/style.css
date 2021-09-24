@@ -249,4 +249,46 @@ li a {
     margin: 35px 15px;  
 }
 
+/* main, section4 */
+#number_4::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#number_4 {
+    margin: 50px 0;
+}
+
+#sct_left {
+    background-image: url(../img/partner.png);
+    float: left;
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+    height: 500px;
+}
+
+
+#sct_right {
+    float: right;
+    width: 35%;
+}
+
+#sct_title {
+    font-size: 25px;
+    margin: 25px 0;
+}
+
+#sct_info {
+    font-size: 15px;
+}
+
+.partner {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    margin: 25px 0;
+}
+
 /* footer */
