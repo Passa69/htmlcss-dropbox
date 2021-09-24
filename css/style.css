@@ -115,7 +115,7 @@ li a {
 }
 
  /* main, section1 */
-#title_main {
+.title_main {
     padding: 20px 0;
     font-size: 50px;
 }
@@ -269,7 +269,6 @@ li a {
     height: 500px;
 }
 
-
 #sct_right {
     float: right;
     width: 35%;
@@ -290,5 +289,59 @@ li a {
     border: 1px solid black;
     margin: 25px 0;
 }
+
+/* main, section5 */
+#clearfix_business::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.business {
+    float: left;
+    width: 30%;
+    margin: 15px;
+}
+
+.business h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.business p {
+    font-size: 15px;
+}
+
+.img_bus {
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+}
+
+.first {
+    background-image: url(../img/business-feature-switching-tools.png);
+}
+
+.second {
+    background-image: url(../img/business-feature-coordinate-it.png);
+}
+
+.third {
+    background-image: url(../img/business-feature-multi-device.png);
+}
+
+.fourth {
+    background-image: url(../img/business-feature-integrations-it.png);
+}
+
+.fifth {
+    background-image: url(../img/business-feature-send-files-it.png);
+}
+
+.sixth {
+    background-image: url(../img/business-feature-security.png);
+}
+
+/* main, section6 */
 
 /* footer */
