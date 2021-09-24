@@ -343,5 +343,16 @@ li a {
 }
 
 /* main, section6 */
+#title_under {
+    width: 50%;
+    font-size: 30px;
+    margin: 150px 0 20px 0;
+}
+
+section a {
+    font-size: 15px;
+}
+
+/* main, section7 */
 
 /* footer */
