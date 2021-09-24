@@ -114,12 +114,6 @@ li a {
     margin: 0 auto;
 }
 
-.container::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
  /* main, section1 */
 #title_main {
     padding: 20px 0;
@@ -135,6 +129,12 @@ li a {
 }
 
 /* main, section2 */
+#number_2::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .plan {
     width: calc(100% / 3.5);
     display: inline-block;
@@ -211,16 +211,42 @@ li a {
     text-align: center;
 }
 
+#plandown::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 #plandown_type {
     border-bottom: 1px solid black;
     padding: 10px;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 #plandown_title {
     text-align: left;
     font-size: 25px;
     padding: 20px 10px;
+}
+
+#plandown_info {
+    text-align: left;
+    font-size: 15px;
+    padding: 0px 10px 15px;
+}
+
+#plandown_ttl {
+    display: block;
+    margin-bottom: 15px;
+}
+
+#plandown_left {
+    float: left;    
+}
+
+#plandown_right{
+    float: right; 
+    margin: 35px 15px;  
 }
 
 /* footer */
