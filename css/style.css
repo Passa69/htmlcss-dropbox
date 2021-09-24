@@ -131,8 +131,10 @@ li a {
 .plan {
     width: 30%;
     display: inline-block;
+    float: left;
     margin: 25px 10px;
     border: 1px solid black;
+    min-height: 500px;
 }
 
 .plan_type {
@@ -184,6 +186,10 @@ li a {
 .plan_list {
     padding: 10px 0 200px 30px;
     /* list-style-type: ; */
+}
+
+.one {
+    padding: 10px 0 232px 30px;
 }
 
 .plan_item {
