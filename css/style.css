@@ -18,6 +18,7 @@ header div {
     width: 100%;
     border-bottom: 1px solid black;
     position: fixed;
+    z-index: 999;
 }
 
 #nav_fixed::after {
