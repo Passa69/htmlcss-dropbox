@@ -445,18 +445,22 @@ section a {
 /* main, section8 */
 #number_8 {
     background-color: rgb(153, 207, 224);
-    height: 300px;
+    height: 200px;
+}
+
+.free {
+    text-align: center;
+    padding-top: 80px;
 }
 
 .agency {
-    width: 70%;
-    margin: 0 auto;
     color: rgb(143, 49, 49);
     font-size: 25px;
     float: left;
 }
 
 .agencyb {
+    float: right;
     background-color: white;
     color: black;
 }
