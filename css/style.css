@@ -478,6 +478,7 @@ footer{
     padding: 30px 0;
 }
 
+/* up, footer */
 #fcontainer::after {
     content: "";
     display: table;
@@ -507,4 +508,17 @@ footer{
 .list_item a {
     color: white;
     text-decoration: none;
+}
+
+/* down, footer */
+#dw {
+    border-top: 1px solid white;
+    width: 100px;
+    text-align: left;
+    margin-left: 7%;
+    padding: 30px 0;
+}
+
+#fdown {
+    color: white;
 }
