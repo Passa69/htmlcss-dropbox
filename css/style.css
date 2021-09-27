@@ -135,6 +135,10 @@ li a {
     clear: both;
 }
 
+#number_2 li {
+    list-style: none;
+}
+
 .plan {
     width: calc(100% / 3.5);
     float: left;
@@ -191,7 +195,10 @@ li a {
 
 .plan_list {
     padding: 10px 0 100px 20px;
-    /* list-style-type: ; */
+}
+
+.mark {
+    color: rgb(128, 203, 228);
 }
 
 .one {
