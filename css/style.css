@@ -137,7 +137,6 @@ li a {
 
 .plan {
     width: calc(100% / 3.5);
-    display: inline-block;
     float: left;
     margin: 25px 28px;
     border: 1px solid black;
@@ -465,4 +464,47 @@ section a {
     color: black;
 }
 
+/* main, section9 */
+
+
 /* footer */
+footer{
+    background-color: black;
+}
+
+#fcontainer {
+    width: 85%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+#fcontainer::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.item {
+    float: left;
+}
+
+.title_item {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.ul_item {
+    margin-right: 100px;
+}
+
+.list_item {
+    list-style: none;
+    margin: 10px 0;
+    font-size: 13px;
+}
+
+.list_item a {
+    color: white;
+    text-decoration: none;
+}
